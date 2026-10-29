@@ -1,0 +1,19 @@
+{
+    "name": "Eclipse.Editor",
+    "rootNamespace": "Eclipse.EditorTools",
+    "references": [
+        "Eclipse.Core",
+        "Eclipse.Themes"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
