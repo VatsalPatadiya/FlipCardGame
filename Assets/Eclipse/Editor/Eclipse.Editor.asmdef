@@ -4,6 +4,7 @@
     "references": [
         "Eclipse.Core",
         "Eclipse.Themes",
+        "Eclipse.Rendering",
         "Unity.TextMeshPro",
         "Unity.TextMeshPro.Editor"
     ],

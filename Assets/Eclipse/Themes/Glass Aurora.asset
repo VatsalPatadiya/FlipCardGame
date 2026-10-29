@@ -1,0 +1,778 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f4035a33d60542db8364505d9baa4ab, type: 3}
+  m_Name: Glass Aurora
+  m_EditorClassIdentifier: Eclipse.Themes::Eclipse.Themes.CardTheme
+  themeId: glass
+  displayName: Glass Aurora
+  numberFontName: Righteous
+  numberScale: 1.04
+  headingFontName: Unbounded
+  bodyFontName: Manrope
+  numberFont: {fileID: 0}
+  headingFont: {fileID: 0}
+  bodyFont: {fileID: 0}
+  holoTilt: 0
+  sun:
+    colorNames:
+    - Coral
+    - Violet
+    - Jade
+    - Azure
+    colors:
+    - {r: 1, g: 0.36862746, b: 0.42352942, a: 1}
+    - {r: 0.42352942, g: 0.36078432, b: 0.90588236, a: 1}
+    - {r: 0, g: 0.65882355, b: 0.5176471, a: 1}
+    - {r: 0.03529412, g: 0.5176471, b: 0.8901961, a: 1}
+    table:
+      kind: 0
+      angle: 0
+      center: {x: 0.5, y: 0.5}
+      stops:
+      - color:
+          useCardColor: 0
+          color: {r: 0.95686275, g: 0.9411765, b: 1, a: 1}
+          lighten: 0
+          darken: 0
+          alpha: 1
+        position: 0
+    tableBlobs:
+    - kind: 2
+      angle: 0
+      center: {x: 0.15, y: 0.12}
+      stops:
+      - color:
+          useCardColor: 0
+          color: {r: 1, g: 0.72156864, b: 0.8, a: 1}
+          lighten: 0
+          darken: 0
+          alpha: 1
+        position: 0
+      - color:
+          useCardColor: 0
+          color: {r: 1, g: 0.72156864, b: 0.8, a: 1}
+          lighten: 0
+          darken: 0
+          alpha: 0
+        position: 1
+    - kind: 2
+      angle: 0
+      center: {x: 0.85, y: 0.12}
+      stops:
+      - color:
+          useCardColor: 0
+          color: {r: 0.6509804, g: 0.8627451, b: 1, a: 1}
+          lighten: 0
+          darken: 0
+          alpha: 1
+        position: 0
+      - color:
+          useCardColor: 0
+          color: {r: 0.6509804, g: 0.8627451, b: 1, a: 1}
+          lighten: 0
+          darken: 0
+          alpha: 0
+        position: 1
+    - kind: 2
+      angle: 0
+      center: {x: 0.5, y: 0.95}
+      stops:
+      - color:
+          useCardColor: 0
+          color: {r: 0.8039216, g: 0.7411765, b: 1, a: 1}
+          lighten: 0
+          darken: 0
+          alpha: 1
+        position: 0
+      - color:
+          useCardColor: 0
+          color: {r: 0.8039216, g: 0.7411765, b: 1, a: 1}
+          lighten: 0
+          darken: 0
+          alpha: 0
+        position: 1
+    frame:
+      kind: 1
+      angle: 160
+      center: {x: 0.5, y: 0.5}
+      stops:
+      - color:
+          useCardColor: 0
+          color: {r: 1, g: 1, b: 1, a: 1}
+          lighten: 0
+          darken: 0
+          alpha: 0.95
+        position: 0
+      - color:
+          useCardColor: 0
+          color: {r: 1, g: 1, b: 1, a: 1}
+          lighten: 0
+          darken: 0
+          alpha: 0.4
+        position: 1
+    framePadding: 2
+    outerRadius: 24
+    innerRadius: 22
+    panel:
+      kind: 1
+      angle: 160
+      center: {x: 0.5, y: 0.5}
+      stops:
+      - color:
+          useCardColor: 0
+          color: {r: 1, g: 1, b: 1, a: 1}
+          lighten: 0
+          darken: 0
+          alpha: 0.8
+        position: 0
+      - color:
+          useCardColor: 0
+          color: {r: 1, g: 1, b: 1, a: 1}
+          lighten: 0
+          darken: 0
+          alpha: 0.35
+        position: 1
+    panelOverlay:
+      kind: 2
+      angle: 0
+      center: {x: 0.5, y: 0.52}
+      stops:
+      - color:
+          useCardColor: 1
+          color: {r: 0, g: 0, b: 0, a: 0}
+          lighten: 0
+          darken: 0
+          alpha: 0.75
+        position: 0
+      - color:
+          useCardColor: 1
+          color: {r: 0, g: 0, b: 0, a: 0}
+          lighten: 0
+          darken: 0
+          alpha: 0
+        position: 0.72
+    panelHairline:
+      useCardColor: 0
+      color: {r: 0, g: 0, b: 0, a: 0}
+      lighten: 0
+      darken: 0
+      alpha: 0
+    starfieldOpacity: 0
+    patternOpacity: 0
+    patternSize: 400
+    patternRotation: 8
+    backgroundBlur: 1
+    emblem:
+      shape: 1
+      size: 184
+      fill:
+        useCardColor: 0
+        color: {r: 1, g: 1, b: 1, a: 1}
+        lighten: 0
+        darken: 0
+        alpha: 0.4
+      stroke:
+        useCardColor: 0
+        color: {r: 1, g: 1, b: 1, a: 1}
+        lighten: 0
+        darken: 0
+        alpha: 0.95
+      strokeWidth: 3
+      innerOutline: 0
+      innerOutlineColor:
+        useCardColor: 0
+        color: {r: 0, g: 0, b: 0, a: 0}
+        lighten: 0
+        darken: 0
+        alpha: 0
+      innerOutlineScale: 0.86
+      shadows:
+      - offset: {x: 0, y: 10}
+        blur: 18
+        spread: 0
+        color:
+          useCardColor: 0
+          color: {r: 0.11764706, g: 0.08627451, b: 0.2509804, a: 1}
+          lighten: 0
+          darken: 0
+          alpha: 0.18
+    number:
+      fill:
+        kind: 0
+        angle: 0
+        center: {x: 0.5, y: 0.5}
+        stops:
+        - color:
+            useCardColor: 1
+            color: {r: 0, g: 0, b: 0, a: 0}
+            lighten: 0
+            darken: 0
+            alpha: 1
+          position: 0
+      outline:
+        useCardColor: 0
+        color: {r: 1, g: 1, b: 1, a: 1}
+        lighten: 0
+        darken: 0
+        alpha: 1
+      outlineWidth: 14
+      shadows:
+      - offset: {x: 0, y: 6}
+        blur: 10
+        spread: 0
+        color:
+          useCardColor: 0
+          color: {r: 0.11764706, g: 0.08627451, b: 0.2509804, a: 1}
+          lighten: 0
+          darken: 0
+          alpha: 0.28
+    chip:
+      background:
+        useCardColor: 0
+        color: {r: 1, g: 1, b: 1, a: 1}
+        lighten: 0
+        darken: 0
+        alpha: 0.75
+      border:
+        useCardColor: 0
+        color: {r: 1, g: 1, b: 1, a: 1}
+        lighten: 0
+        darken: 0
+        alpha: 0.95
+      borderWidth: 1
+      text:
+        useCardColor: 1
+        color: {r: 0, g: 0, b: 0, a: 0}
+        lighten: 0
+        darken: 0.35
+        alpha: 1
+      radius: 12
+      shadows:
+      - offset: {x: 0, y: 4}
+        blur: 10
+        spread: 0
+        color:
+          useCardColor: 0
+          color: {r: 0.11764706, g: 0.08627451, b: 0.2509804, a: 1}
+          lighten: 0
+          darken: 0
+          alpha: 0.12
+    jump:
+      outerStroke:
+        useCardColor: 0
+        color: {r: 0, g: 0, b: 0, a: 0}
+        lighten: 0
+        darken: 0
+        alpha: 0
+      outerStrokeWidth: 0
+      innerStroke:
+        useCardColor: 0
+        color: {r: 0, g: 0, b: 0, a: 0}
+        lighten: 0
+        darken: 0
+        alpha: 0
+      innerStrokeWidth: 0
+    gloss:
+      kind: 1
+      angle: 135
+      center: {x: 0.5, y: 0.5}
+      stops:
+      - color:
+          useCardColor: 0
+          color: {r: 1, g: 1, b: 1, a: 1}
+          lighten: 0
+          darken: 0
+          alpha: 0.6
+        position: 0
+      - color:
+          useCardColor: 0
+          color: {r: 1, g: 1, b: 1, a: 1}
+          lighten: 0
+          darken: 0
+          alpha: 0
+        position: 0.42
+    glossSweeps: 0
+    cardShadow:
+      offset: {x: 0, y: 30}
+      blur: 50
+      spread: 0
+      color:
+        useCardColor: 0
+        color: {r: 0.23529412, g: 0.15686275, b: 0.54901963, a: 1}
+        lighten: 0
+        darken: 0
+        alpha: 0.25
+    playableGlow:
+    - offset: {x: 0, y: 0}
+      blur: 0
+      spread: 2
+      color:
+        useCardColor: 0
+        color: {r: 1, g: 1, b: 1, a: 1}
+        lighten: 0
+        darken: 0
+        alpha: 1
+    - offset: {x: 0, y: 0}
+      blur: 60
+      spread: 0
+      color:
+        useCardColor: 0
+        color: {r: 1, g: 1, b: 1, a: 1}
+        lighten: 0
+        darken: 0
+        alpha: 0.95
+    wild:
+      label: WILD
+      frame:
+        kind: 1
+        angle: 135
+        center: {x: 0.5, y: 0.5}
+        stops:
+        - color:
+            useCardColor: 0
+            color: {r: 1, g: 0.36862746, b: 0.42352942, a: 1}
+            lighten: 0
+            darken: 0
+            alpha: 1
+          position: 0
+        - color:
+            useCardColor: 0
+            color: {r: 0.42352942, g: 0.36078432, b: 0.90588236, a: 1}
+            lighten: 0
+            darken: 0
+            alpha: 1
+          position: 0.33333334
+        - color:
+            useCardColor: 0
+            color: {r: 0, g: 0.65882355, b: 0.5176471, a: 1}
+            lighten: 0
+            darken: 0
+            alpha: 1
+          position: 0.6666667
+        - color:
+            useCardColor: 0
+            color: {r: 0.03529412, g: 0.5176471, b: 0.8901961, a: 1}
+            lighten: 0
+            darken: 0
+            alpha: 1
+          position: 1
+      panel:
+        kind: 0
+        angle: 0
+        center: {x: 0.5, y: 0.5}
+        stops:
+        - color:
+            useCardColor: 0
+            color: {r: 1, g: 1, b: 1, a: 1}
+            lighten: 0
+            darken: 0
+            alpha: 1
+          position: 0
+      nestedAsOutlines: 1
+      nestedStroke:
+        useCardColor: 0
+        color: {r: 1, g: 1, b: 1, a: 1}
+        lighten: 0
+        darken: 0
+        alpha: 1
+      nestedStrokeWidth: 3
+      labelColor:
+        useCardColor: 0
+        color: {r: 1, g: 1, b: 1, a: 1}
+        lighten: 0
+        darken: 0
+        alpha: 1
+      labelOutline:
+        useCardColor: 0
+        color: {r: 0.11764706, g: 0.08627451, b: 0.2509804, a: 1}
+        lighten: 0
+        darken: 0
+        alpha: 1
+    uiHeading: {r: 0.11764706, g: 0.08627451, b: 0.2509804, a: 1}
+    uiMuted: {r: 0.2901961, g: 0.24705882, b: 0.43137255, a: 1}
+    uiEyebrow: {r: 0.35686275, g: 0.24705882, b: 0.8156863, a: 1}
+  moon:
+    colorNames:
+    - Amethyst
+    - Magenta
+    - Cyan
+    - Volt
+    colors:
+    - {r: 0.63529414, g: 0.48235294, b: 1, a: 1}
+    - {r: 1, g: 0.30980393, b: 0.6392157, a: 1}
+    - {r: 0.18431373, g: 0.9529412, b: 0.8784314, a: 1}
+    - {r: 0.90588236, g: 1, b: 0.3529412, a: 1}
+    table:
+      kind: 0
+      angle: 0
+      center: {x: 0.5, y: 0.5}
+      stops:
+      - color:
+          useCardColor: 0
+          color: {r: 0.02745098, g: 0.039215688, b: 0.12156863, a: 1}
+          lighten: 0
+          darken: 0
+          alpha: 1
+        position: 0
+    tableBlobs:
+    - kind: 2
+      angle: 0
+      center: {x: 0.2, y: 0.15}
+      stops:
+      - color:
+          useCardColor: 0
+          color: {r: 0.50980395, g: 0.27450982, b: 1, a: 1}
+          lighten: 0
+          darken: 0
+          alpha: 0.55
+        position: 0
+      - color:
+          useCardColor: 0
+          color: {r: 0.50980395, g: 0.27450982, b: 1, a: 1}
+          lighten: 0
+          darken: 0
+          alpha: 0
+        position: 1
+    - kind: 2
+      angle: 0
+      center: {x: 0.85, y: 0.35}
+      stops:
+      - color:
+          useCardColor: 0
+          color: {r: 0, g: 0.8627451, b: 0.78431374, a: 1}
+          lighten: 0
+          darken: 0
+          alpha: 0.35
+        position: 0
+      - color:
+          useCardColor: 0
+          color: {r: 0, g: 0.8627451, b: 0.78431374, a: 1}
+          lighten: 0
+          darken: 0
+          alpha: 0
+        position: 1
+    - kind: 2
+      angle: 0
+      center: {x: 0.4, y: 0.9}
+      stops:
+      - color:
+          useCardColor: 0
+          color: {r: 1, g: 0.23529412, b: 0.54901963, a: 1}
+          lighten: 0
+          darken: 0
+          alpha: 0.35
+        position: 0
+      - color:
+          useCardColor: 0
+          color: {r: 1, g: 0.23529412, b: 0.54901963, a: 1}
+          lighten: 0
+          darken: 0
+          alpha: 0
+        position: 1
+    frame:
+      kind: 1
+      angle: 160
+      center: {x: 0.5, y: 0.5}
+      stops:
+      - color:
+          useCardColor: 0
+          color: {r: 1, g: 1, b: 1, a: 1}
+          lighten: 0
+          darken: 0
+          alpha: 0.45
+        position: 0
+      - color:
+          useCardColor: 0
+          color: {r: 1, g: 1, b: 1, a: 1}
+          lighten: 0
+          darken: 0
+          alpha: 0.08
+        position: 1
+    framePadding: 2
+    outerRadius: 24
+    innerRadius: 22
+    panel:
+      kind: 1
+      angle: 160
+      center: {x: 0.5, y: 0.5}
+      stops:
+      - color:
+          useCardColor: 0
+          color: {r: 0.15686275, g: 0.17254902, b: 0.3529412, a: 1}
+          lighten: 0
+          darken: 0
+          alpha: 0.85
+        position: 0
+      - color:
+          useCardColor: 0
+          color: {r: 0.039215688, g: 0.047058824, b: 0.1254902, a: 1}
+          lighten: 0
+          darken: 0
+          alpha: 0.92
+        position: 1
+    panelOverlay:
+      kind: 2
+      angle: 0
+      center: {x: 0.5, y: 0.52}
+      stops:
+      - color:
+          useCardColor: 1
+          color: {r: 0, g: 0, b: 0, a: 0}
+          lighten: 0
+          darken: 0
+          alpha: 0.5
+        position: 0
+      - color:
+          useCardColor: 1
+          color: {r: 0, g: 0, b: 0, a: 0}
+          lighten: 0
+          darken: 0
+          alpha: 0
+        position: 0.72
+    panelHairline:
+      useCardColor: 0
+      color: {r: 0, g: 0, b: 0, a: 0}
+      lighten: 0
+      darken: 0
+      alpha: 0
+    starfieldOpacity: 0.55
+    patternOpacity: 0
+    patternSize: 400
+    patternRotation: 8
+    backgroundBlur: 1
+    emblem:
+      shape: 1
+      size: 184
+      fill:
+        useCardColor: 0
+        color: {r: 1, g: 1, b: 1, a: 1}
+        lighten: 0
+        darken: 0
+        alpha: 0
+      stroke:
+        useCardColor: 1
+        color: {r: 0, g: 0, b: 0, a: 0}
+        lighten: 0
+        darken: 0
+        alpha: 1
+      strokeWidth: 3
+      innerOutline: 0
+      innerOutlineColor:
+        useCardColor: 0
+        color: {r: 0, g: 0, b: 0, a: 0}
+        lighten: 0
+        darken: 0
+        alpha: 0
+      innerOutlineScale: 0.86
+      shadows:
+      - offset: {x: 0, y: 0}
+        blur: 10
+        spread: 0
+        color:
+          useCardColor: 1
+          color: {r: 0, g: 0, b: 0, a: 0}
+          lighten: 0
+          darken: 0
+          alpha: 1
+    number:
+      fill:
+        kind: 0
+        angle: 0
+        center: {x: 0.5, y: 0.5}
+        stops:
+        - color:
+            useCardColor: 0
+            color: {r: 1, g: 1, b: 1, a: 1}
+            lighten: 0
+            darken: 0
+            alpha: 1
+          position: 0
+      outline:
+        useCardColor: 1
+        color: {r: 0, g: 0, b: 0, a: 0}
+        lighten: 0
+        darken: 0.6
+        alpha: 1
+      outlineWidth: 14
+      shadows:
+      - offset: {x: 0, y: 0}
+        blur: 14
+        spread: 0
+        color:
+          useCardColor: 1
+          color: {r: 0, g: 0, b: 0, a: 0}
+          lighten: 0
+          darken: 0
+          alpha: 1
+    chip:
+      background:
+        useCardColor: 0
+        color: {r: 0.039215688, g: 0.047058824, b: 0.1254902, a: 1}
+        lighten: 0
+        darken: 0
+        alpha: 0.7
+      border:
+        useCardColor: 1
+        color: {r: 0, g: 0, b: 0, a: 0}
+        lighten: 0
+        darken: 0
+        alpha: 1
+      borderWidth: 1
+      text:
+        useCardColor: 0
+        color: {r: 1, g: 1, b: 1, a: 1}
+        lighten: 0
+        darken: 0
+        alpha: 1
+      radius: 12
+      shadows: []
+    jump:
+      outerStroke:
+        useCardColor: 0
+        color: {r: 0, g: 0, b: 0, a: 0}
+        lighten: 0
+        darken: 0
+        alpha: 0
+      outerStrokeWidth: 0
+      innerStroke:
+        useCardColor: 0
+        color: {r: 0, g: 0, b: 0, a: 0}
+        lighten: 0
+        darken: 0
+        alpha: 0
+      innerStrokeWidth: 0
+    gloss:
+      kind: 1
+      angle: 135
+      center: {x: 0.5, y: 0.5}
+      stops:
+      - color:
+          useCardColor: 0
+          color: {r: 1, g: 1, b: 1, a: 1}
+          lighten: 0
+          darken: 0
+          alpha: 0.25
+        position: 0
+      - color:
+          useCardColor: 0
+          color: {r: 1, g: 1, b: 1, a: 1}
+          lighten: 0
+          darken: 0
+          alpha: 0
+        position: 0.42
+    glossSweeps: 0
+    cardShadow:
+      offset: {x: 0, y: 30}
+      blur: 50
+      spread: 0
+      color:
+        useCardColor: 0
+        color: {r: 0, g: 0, b: 0, a: 1}
+        lighten: 0
+        darken: 0
+        alpha: 0.45
+    playableGlow:
+    - offset: {x: 0, y: 0}
+      blur: 0
+      spread: 2
+      color:
+        useCardColor: 1
+        color: {r: 0, g: 0, b: 0, a: 0}
+        lighten: 0
+        darken: 0
+        alpha: 1
+    - offset: {x: 0, y: 0}
+      blur: 60
+      spread: 0
+      color:
+        useCardColor: 1
+        color: {r: 0, g: 0, b: 0, a: 0}
+        lighten: 0
+        darken: 0
+        alpha: 1
+    wild:
+      label: CHASE
+      frame:
+        kind: 1
+        angle: 135
+        center: {x: 0.5, y: 0.5}
+        stops:
+        - color:
+            useCardColor: 0
+            color: {r: 0.63529414, g: 0.48235294, b: 1, a: 1}
+            lighten: 0
+            darken: 0
+            alpha: 1
+          position: 0
+        - color:
+            useCardColor: 0
+            color: {r: 1, g: 0.30980393, b: 0.6392157, a: 1}
+            lighten: 0
+            darken: 0
+            alpha: 1
+          position: 0.33333334
+        - color:
+            useCardColor: 0
+            color: {r: 0.18431373, g: 0.9529412, b: 0.8784314, a: 1}
+            lighten: 0
+            darken: 0
+            alpha: 1
+          position: 0.6666667
+        - color:
+            useCardColor: 0
+            color: {r: 0.90588236, g: 1, b: 0.3529412, a: 1}
+            lighten: 0
+            darken: 0
+            alpha: 1
+          position: 1
+      panel:
+        kind: 1
+        angle: 160
+        center: {x: 0.5, y: 0.5}
+        stops:
+        - color:
+            useCardColor: 0
+            color: {r: 0.15686275, g: 0.17254902, b: 0.3529412, a: 1}
+            lighten: 0
+            darken: 0
+            alpha: 0.85
+          position: 0
+        - color:
+            useCardColor: 0
+            color: {r: 0.039215688, g: 0.047058824, b: 0.1254902, a: 1}
+            lighten: 0
+            darken: 0
+            alpha: 0.92
+          position: 1
+      nestedAsOutlines: 1
+      nestedStroke:
+        useCardColor: 0
+        color: {r: 0, g: 0, b: 0, a: 0}
+        lighten: 0
+        darken: 0
+        alpha: 0
+      nestedStrokeWidth: 3
+      labelColor:
+        useCardColor: 0
+        color: {r: 1, g: 1, b: 1, a: 1}
+        lighten: 0
+        darken: 0
+        alpha: 1
+      labelOutline:
+        useCardColor: 0
+        color: {r: 0.02745098, g: 0.039215688, b: 0.12156863, a: 1}
+        lighten: 0
+        darken: 0
+        alpha: 1
+    uiHeading: {r: 1, g: 1, b: 1, a: 1}
+    uiMuted: {r: 1, g: 1, b: 1, a: 0.65}
+    uiEyebrow: {r: 0.18431373, g: 0.9529412, b: 0.8784314, a: 1}
