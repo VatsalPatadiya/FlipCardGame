@@ -24,6 +24,7 @@ namespace Eclipse.Rendering
                 var copyStyle = CloneWithFill(baseEmblem, sideColors[i], scales[i]);
                 int copySize = Mathf.Max(1, Mathf.RoundToInt(size * scales[i]));
                 var baked = EmblemRasterizer.Bake(copyStyle, sideColors[i], copySize);
+                baked.wrapMode = TextureWrapMode.Clamp; // avoid edge bleed when GetPixelBilinear samples near a border
 
                 float angle = i * CardLayoutSpec.WildNestedRotationStarburst;
                 CompositeRotatedCentered(pixels, size, baked, angle);
