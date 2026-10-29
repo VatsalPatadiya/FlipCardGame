@@ -3,7 +3,9 @@
     "rootNamespace": "Eclipse.EditorTools",
     "references": [
         "Eclipse.Core",
-        "Eclipse.Themes"
+        "Eclipse.Themes",
+        "Unity.TextMeshPro",
+        "Unity.TextMeshPro.Editor"
     ],
     "includePlatforms": [
         "Editor"

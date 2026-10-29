@@ -1,0 +1,555 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71c1514a6bd24e1e882cebbe1904ce04, type: 3}
+  m_Name: Bungee SDF
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TMP_FontAsset
+  m_Version: 1.1.0
+  m_FaceInfo:
+    m_FaceIndex: 0
+    m_FamilyName: Bungee
+    m_StyleName: Regular
+    m_PointSize: 90
+    m_Scale: 1
+    m_UnitsPerEM: 1000
+    m_LineHeight: 118.8
+    m_AscentLine: 91.8
+    m_CapLine: 65
+    m_MeanLine: 65
+    m_Baseline: 0
+    m_DescentLine: -27.000002
+    m_SuperscriptOffset: 91.8
+    m_SuperscriptSize: 0.5
+    m_SubscriptOffset: -27.000002
+    m_SubscriptSize: 0.5
+    m_UnderlineOffset: -9
+    m_UnderlineThickness: 4.5
+    m_StrikethroughOffset: 26
+    m_StrikethroughThickness: 4.5
+    m_TabWidth: 20
+  m_Material: {fileID: 0}
+  m_SourceFontFileGUID: d4e8b5c3a7a694d3ea3513c5af1a5c39
+  m_CreationSettings:
+    sourceFontFileName: 
+    sourceFontFileGUID: 
+    faceIndex: 0
+    pointSizeSamplingMode: 0
+    pointSize: 0
+    padding: 0
+    paddingMode: 0
+    packingMode: 0
+    atlasWidth: 0
+    atlasHeight: 0
+    characterSetSelectionMode: 0
+    characterSequence: 
+    referencedFontAssetGUID: 
+    referencedTextAssetGUID: 
+    fontStyle: 0
+    fontStyleModifier: 0
+    renderMode: 0
+    includeFontFeatures: 0
+  m_SourceFontFile: {fileID: 12800000, guid: d4e8b5c3a7a694d3ea3513c5af1a5c39, type: 3}
+  m_SourceFontFilePath: 
+  m_AtlasPopulationMode: 1
+  InternalDynamicOS: 0
+  m_GlyphTable:
+  - m_Index: 183
+    m_Metrics:
+      m_Width: 54.984375
+      m_Height: 67.5
+      m_HorizontalBearingX: 5.21875
+      m_HorizontalBearingY: 66.15625
+      m_HorizontalAdvance: 65.4375
+    m_GlyphRect:
+      m_X: 6
+      m_Y: 6
+      m_Width: 56
+      m_Height: 69
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 184
+    m_Metrics:
+      m_Width: 46.265625
+      m_Height: 64.796875
+      m_HorizontalBearingX: 4.3125
+      m_HorizontalBearingY: 64.796875
+      m_HorizontalAdvance: 54.09375
+    m_GlyphRect:
+      m_X: 6
+      m_Y: 86
+      m_Width: 47
+      m_Height: 65
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 185
+    m_Metrics:
+      m_Width: 49.328125
+      m_Height: 64.796875
+      m_HorizontalBearingX: 3.59375
+      m_HorizontalBearingY: 64.796875
+      m_HorizontalAdvance: 57.515625
+    m_GlyphRect:
+      m_X: 6
+      m_Y: 162
+      m_Width: 50
+      m_Height: 65
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 186
+    m_Metrics:
+      m_Width: 49.140625
+      m_Height: 64.796875
+      m_HorizontalBearingX: 4.40625
+      m_HorizontalBearingY: 64.796875
+      m_HorizontalAdvance: 57.328125
+    m_GlyphRect:
+      m_X: 64
+      m_Y: 86
+      m_Width: 50
+      m_Height: 65
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 187
+    m_Metrics:
+      m_Width: 51.921875
+      m_Height: 64.796875
+      m_HorizontalBearingX: 5.671875
+      m_HorizontalBearingY: 64.796875
+      m_HorizontalAdvance: 63.8125
+    m_GlyphRect:
+      m_X: 73
+      m_Y: 6
+      m_Width: 53
+      m_Height: 65
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 188
+    m_Metrics:
+      m_Width: 49.40625
+      m_Height: 64.796875
+      m_HorizontalBearingX: 4.953125
+      m_HorizontalBearingY: 64.796875
+      m_HorizontalAdvance: 58.234375
+    m_GlyphRect:
+      m_X: 6
+      m_Y: 238
+      m_Width: 51
+      m_Height: 65
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 189
+    m_Metrics:
+      m_Width: 52.921875
+      m_Height: 66.140625
+      m_HorizontalBearingX: 5.21875
+      m_HorizontalBearingY: 64.796875
+      m_HorizontalAdvance: 62.375
+    m_GlyphRect:
+      m_X: 6
+      m_Y: 314
+      m_Width: 54
+      m_Height: 67
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 190
+    m_Metrics:
+      m_Width: 48.328125
+      m_Height: 64.796875
+      m_HorizontalBearingX: 3.421875
+      m_HorizontalBearingY: 64.796875
+      m_HorizontalAdvance: 56.4375
+    m_GlyphRect:
+      m_X: 67
+      m_Y: 162
+      m_Width: 49
+      m_Height: 65
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 191
+    m_Metrics:
+      m_Width: 55.53125
+      m_Height: 67.5
+      m_HorizontalBearingX: 4.234375
+      m_HorizontalBearingY: 66.15625
+      m_HorizontalAdvance: 63.984375
+    m_GlyphRect:
+      m_X: 125
+      m_Y: 82
+      m_Width: 56
+      m_Height: 69
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 192
+    m_Metrics:
+      m_Width: 52.921875
+      m_Height: 66.15625
+      m_HorizontalBearingX: 4.234375
+      m_HorizontalBearingY: 66.15625
+      m_HorizontalAdvance: 62.375
+    m_GlyphRect:
+      m_X: 6
+      m_Y: 392
+      m_Width: 54
+      m_Height: 67
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 246
+    m_Metrics:
+      m_Width: 53.46875
+      m_Height: 53.453125
+      m_HorizontalBearingX: 6.296875
+      m_HorizontalBearingY: 59.125
+      m_HorizontalAdvance: 66.0625
+    m_GlyphRect:
+      m_X: 137
+      m_Y: 6
+      m_Width: 54
+      m_Height: 55
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 219
+    m_Metrics:
+      m_Width: 63.171875
+      m_Height: 45.71875
+      m_HorizontalBearingX: 5.40625
+      m_HorizontalBearingY: 54.359375
+      m_HorizontalAdvance: 73.078125
+    m_GlyphRect:
+      m_X: 68
+      m_Y: 238
+      m_Width: 64
+      m_Height: 47
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 99
+    m_Metrics:
+      m_Width: 63.984375
+      m_Height: 64.796875
+      m_HorizontalBearingX: 5.40625
+      m_HorizontalBearingY: 64.796875
+      m_HorizontalAdvance: 74.796875
+    m_GlyphRect:
+      m_X: 127
+      m_Y: 162
+      m_Width: 65
+      m_Height: 65
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 39
+    m_Metrics:
+      m_Width: 44.828125
+      m_Height: 64.796875
+      m_HorizontalBearingX: 4.765625
+      m_HorizontalBearingY: 64.796875
+      m_HorizontalAdvance: 54.453125
+    m_GlyphRect:
+      m_X: 192
+      m_Y: 72
+      m_Width: 46
+      m_Height: 65
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 53
+    m_Metrics:
+      m_Width: 52.296875
+      m_Height: 64.796875
+      m_HorizontalBearingX: 6.203125
+      m_HorizontalBearingY: 64.796875
+      m_HorizontalAdvance: 62.546875
+    m_GlyphRect:
+      m_X: 71
+      m_Y: 296
+      m_Width: 53
+      m_Height: 65
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 19
+    m_Metrics:
+      m_Width: 55.71875
+      m_Height: 64.796875
+      m_HorizontalBearingX: 6.203125
+      m_HorizontalBearingY: 64.796875
+      m_HorizontalAdvance: 67.140625
+    m_GlyphRect:
+      m_X: 71
+      m_Y: 372
+      m_Width: 56
+      m_Height: 65
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  m_CharacterTable:
+  - m_ElementType: 1
+    m_Unicode: 48
+    m_GlyphIndex: 183
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 49
+    m_GlyphIndex: 184
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 50
+    m_GlyphIndex: 185
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 51
+    m_GlyphIndex: 186
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 52
+    m_GlyphIndex: 187
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 53
+    m_GlyphIndex: 188
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 54
+    m_GlyphIndex: 189
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 55
+    m_GlyphIndex: 190
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 56
+    m_GlyphIndex: 191
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 57
+    m_GlyphIndex: 192
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 43
+    m_GlyphIndex: 246
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 187
+    m_GlyphIndex: 219
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 87
+    m_GlyphIndex: 99
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 73
+    m_GlyphIndex: 39
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 76
+    m_GlyphIndex: 53
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 68
+    m_GlyphIndex: 19
+    m_Scale: 1
+  m_AtlasTextures:
+  - {fileID: 0}
+  m_AtlasTextureIndex: 0
+  m_IsMultiAtlasTexturesEnabled: 1
+  m_GetFontFeatures: 1
+  m_ClearDynamicDataOnBuild: 1
+  m_AtlasWidth: 512
+  m_AtlasHeight: 512
+  m_AtlasPadding: 5
+  m_AtlasRenderMode: 4165
+  m_UsedGlyphRects:
+  - m_X: 0
+    m_Y: 0
+    m_Width: 67
+    m_Height: 80
+  - m_X: 0
+    m_Y: 80
+    m_Width: 58
+    m_Height: 76
+  - m_X: 0
+    m_Y: 156
+    m_Width: 61
+    m_Height: 76
+  - m_X: 58
+    m_Y: 80
+    m_Width: 61
+    m_Height: 76
+  - m_X: 67
+    m_Y: 0
+    m_Width: 64
+    m_Height: 76
+  - m_X: 0
+    m_Y: 232
+    m_Width: 62
+    m_Height: 76
+  - m_X: 0
+    m_Y: 308
+    m_Width: 65
+    m_Height: 78
+  - m_X: 61
+    m_Y: 156
+    m_Width: 60
+    m_Height: 76
+  - m_X: 119
+    m_Y: 76
+    m_Width: 67
+    m_Height: 80
+  - m_X: 0
+    m_Y: 386
+    m_Width: 65
+    m_Height: 78
+  - m_X: 131
+    m_Y: 0
+    m_Width: 65
+    m_Height: 66
+  - m_X: 62
+    m_Y: 232
+    m_Width: 75
+    m_Height: 58
+  - m_X: 121
+    m_Y: 156
+    m_Width: 76
+    m_Height: 76
+  - m_X: 186
+    m_Y: 66
+    m_Width: 57
+    m_Height: 76
+  - m_X: 65
+    m_Y: 290
+    m_Width: 64
+    m_Height: 76
+  - m_X: 65
+    m_Y: 366
+    m_Width: 67
+    m_Height: 76
+  m_FreeGlyphRects:
+  - m_X: 67
+    m_Y: 76
+    m_Width: 52
+    m_Height: 4
+  - m_X: 0
+    m_Y: 464
+    m_Width: 511
+    m_Height: 47
+  - m_X: 137
+    m_Y: 232
+    m_Width: 374
+    m_Height: 279
+  - m_X: 131
+    m_Y: 66
+    m_Width: 55
+    m_Height: 10
+  - m_X: 186
+    m_Y: 142
+    m_Width: 325
+    m_Height: 14
+  - m_X: 196
+    m_Y: 0
+    m_Width: 315
+    m_Height: 66
+  - m_X: 197
+    m_Y: 142
+    m_Width: 314
+    m_Height: 369
+  - m_X: 243
+    m_Y: 0
+    m_Width: 268
+    m_Height: 511
+  - m_X: 62
+    m_Y: 290
+    m_Width: 3
+    m_Height: 18
+  - m_X: 65
+    m_Y: 442
+    m_Width: 446
+    m_Height: 69
+  - m_X: 129
+    m_Y: 290
+    m_Width: 382
+    m_Height: 76
+  - m_X: 132
+    m_Y: 290
+    m_Width: 379
+    m_Height: 221
+  m_FontFeatureTable:
+    m_MultipleSubstitutionRecords: []
+    m_LigatureSubstitutionRecords: []
+    m_GlyphPairAdjustmentRecords: []
+    m_MarkToBaseAdjustmentRecords: []
+    m_MarkToMarkAdjustmentRecords: []
+  m_ShouldReimportFontFeatures: 0
+  m_FallbackFontAssetTable: []
+  m_FontWeightTable:
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  fontWeights: []
+  normalStyle: 0
+  normalSpacingOffset: 0
+  boldStyle: 0.75
+  boldSpacing: 7
+  italicStyle: 35
+  tabSize: 10
+  m_fontInfo:
+    Name: 
+    PointSize: 0
+    Scale: 0
+    CharacterCount: 0
+    LineHeight: 0
+    Baseline: 0
+    Ascender: 0
+    CapHeight: 0
+    Descender: 0
+    CenterLine: 0
+    SuperscriptOffset: 0
+    SubscriptOffset: 0
+    SubSize: 0
+    Underline: 0
+    UnderlineThickness: 0
+    strikethrough: 0
+    strikethroughThickness: 0
+    TabWidth: 0
+    Padding: 0
+    AtlasWidth: 0
+    AtlasHeight: 0
+  m_glyphInfoList: []
+  m_KerningTable:
+    kerningPairs: []
+  fallbackFontAssets: []
+  atlas: {fileID: 0}
