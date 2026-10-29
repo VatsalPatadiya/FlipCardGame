@@ -77,6 +77,11 @@ namespace Eclipse.Themes
                 innerOutline = true, innerOutlineColor = Card(0.45f), innerOutlineScale = 0.86f,
                 shadows = new[] { ShadowSpec.Drop(0f, 8f, 8f, Rgba(0, 0, 0, 0.3f)) },
             };
+            sun.jump = new SymbolStyle
+            {
+                outerStroke = ink, outerStrokeWidth = CardLayoutSpec.SymbolOuterStroke,
+                innerStroke = Card(), innerStrokeWidth = CardLayoutSpec.SymbolInnerStroke,
+            };
             sun.number = new NumberStyle
             {
                 fill = Fill.Linear(180f, S(CardLighten(0.42f), 0f), S(Card(), 0.55f), S(CardDarken(0.15f), 1f)),

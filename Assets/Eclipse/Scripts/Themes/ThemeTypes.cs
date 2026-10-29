@@ -175,6 +175,15 @@ namespace Eclipse.Themes
         public ShadowSpec[] shadows = new ShadowSpec[0];
     }
 
+    [Serializable]
+    public class SymbolStyle
+    {
+        public ColorRef outerStroke;
+        public float outerStrokeWidth;
+        public ColorRef innerStroke;
+        public float innerStrokeWidth;
+    }
+
     /// <summary>The Wild (Sun) or Wild Chase (Moon) treatment: foil frame, own panel, four nested emblems.</summary>
     [Serializable]
     public class WildStyle
@@ -223,6 +232,7 @@ namespace Eclipse.Themes
         public EmblemStyle emblem = new EmblemStyle();
         public NumberStyle number = new NumberStyle();
         public ChipStyle chip = new ChipStyle();
+        public SymbolStyle jump = new SymbolStyle();
         public Fill gloss;
         /// <summary>Prism Holo: sweep the gloss band across the card on idle and on select.</summary>
         public bool glossSweeps;

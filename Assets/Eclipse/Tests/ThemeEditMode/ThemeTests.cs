@@ -58,5 +58,18 @@ namespace Eclipse.Themes.Tests
             Assert.AreEqual(1f, CardLayoutSpec.Ease(1f), 1e-3f);
             Assert.Greater(CardLayoutSpec.Ease(0.3f), 0.6f, "fast start, gentle settle");
         }
+
+        [Test]
+        public void PremiumSunJumpUsesInkOuterStrokeAndCardColorInnerStroke()
+        {
+            var theme = ThemeLibrary.CreatePremiumSet();
+            var jump = theme.sun.jump;
+            var ink = Palette.Hex("#1B1530");
+            Assert.AreEqual(ink, jump.outerStroke.Resolve(Color.white));
+            Assert.IsTrue(jump.innerStroke.useCardColor);
+            Assert.AreEqual(CardLayoutSpec.SymbolOuterStroke, jump.outerStrokeWidth, 1e-3f);
+            Assert.AreEqual(CardLayoutSpec.SymbolInnerStroke, jump.innerStrokeWidth, 1e-3f);
+            Object.DestroyImmediate(theme);
+        }
     }
 }
